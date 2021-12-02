@@ -16,9 +16,12 @@ const Header =()=>{
 
     return(
         <>
-        <Modal
+        <Modal 
         visible={visible
+           
         }
+        width="30%"
+        
         onOk={()=> setVisible(false)}
         onCancel={()=> setVisible(false)}
             
