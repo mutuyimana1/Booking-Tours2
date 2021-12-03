@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { LinkedinOutlined} from '@ant-design/icons';
+import { LinkedinOutlined ,FacebookOutlined, WhatsAppOutlined  } from '@ant-design/icons';
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer">
     <div className="our-service">
       <h2>Follow Us On</h2>
-      <p><LinkedinOutlined/>linked</p>
+      <p style={{padding:"40px", paddingLeft:"30px"}}><LinkedinOutlined/> <FacebookOutlined /><WhatsAppOutlined /></p>
      
     </div>
     <div className="our-service">

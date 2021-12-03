@@ -1,3 +1,18 @@
 h1{
-    color: aqua;
+    /* color: aqua;
+*/} 
+.site-layout .site-layout-background{
+    /* background-color: aquamarine; */
+    /* font-size: 70%; */
+    /* font-size: 200px; */
+    font-weight: bold;
+}
+.trigger{
+     font-size: 40px;
+     color: white;
+     margin-top: 2px;
+     margin-left: 30px;
+}
+.logo {
+    /* margin: 40px; */
 }

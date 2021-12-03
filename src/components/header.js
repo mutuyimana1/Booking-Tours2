@@ -26,20 +26,22 @@ const Header =()=>{
         onCancel={()=> setVisible(false)}
             
             >
-                <h2>Signin form</h2>
+                <h2 style={{fontSize:'60px', textAlign:'center'}}>login form</h2>
+                <div style={{height:'30vh', fontSize:'100px',padding:'30px'}}>
             <Form onFinish={onFinish}>
-                <Form.Item label="Email" name="email" rules={[{required:true,type:"email"}]}>
+                
+                <Form.Item label="Email" name="email" rules={[{required:true,type:"email",}]}>
                     <Input />
                 </Form.Item>
                 <Form.Item
                 label="Passward"
-                name="password"
+                type="password"
                 rules={[{required:true,type:"password"}]}>
-                    <Input type="password"/>
+                    <Input/>
                 </Form.Item>
                 <Button htmlType="submit" onClick={()=>{}}>Login</Button>
             </Form>
-         
+         </div>
         </Modal>
         <div className="header-div">
             <div className="logo">

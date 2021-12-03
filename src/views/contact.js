@@ -3,7 +3,7 @@ import HomeLayout from "../components/home-layout";
 import travel from "../assets/images/poolside.jpg"
 import person from "../assets/images/person2-removebg-preview.png"
 import allTourData from "../assets/constant/tours.json"
-import { InstagramOutlined  } from '@ant-design/icons';
+import { InstagramOutlined , LinkedinOutlined,WhatsAppOutlined } from '@ant-design/icons';
 const Contact=()=>{
     return(
         <HomeLayout>
@@ -26,6 +26,13 @@ const Contact=()=>{
     <span className="span8">U</span>
     <span className="span9">S</span>
     </div>
+    <div style={{display:'flex'}}>
+        <div className="follow" style={{width:'40%', height:'80vh',backgroundColor:'white', marginLeft:'20px'}}>
+<h2 style={{fontSize:'50px'}}>follow us on </h2>
+ 
+<div style={{fontSize:'50px', marginLeft:'30px'}}><a href='https://www.linkedin.com/in/mutuyimana-alice-7b7224187/'><InstagramOutlined /></a><h6>Instagram</h6> <br/> <a href='https://www.instagram.com/accounts/login/'><LinkedinOutlined/></a><h6>LinkedIn</h6><br/><a href='https://www.whatsapp.com/'><WhatsAppOutlined/></a><h6>Whatsap</h6></div>
+        </div>
+        <div >
 <p className="message">
     
     <div className="message-content">
@@ -43,6 +50,8 @@ const Contact=()=>{
     
     </div>
 </p>
+</div>
+</div>
 </div>
 
         </HomeLayout>

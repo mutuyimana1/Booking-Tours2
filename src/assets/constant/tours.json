@@ -39,15 +39,5 @@
       "dateScheduled": "10 August 2010",
       "dueDate": "15 August 2010",
       "more": "+250 788 788 788"
-    },
-    {
-      "title": " Inyambo cows",
-      "description": "there’s more to this distinctly Rwandan craft than meets the eye: It is created through a remarkable process that uses an abundant material—cow dung—and, with the help of artistry and natural dyes, turns it into an object of admiration.",
-      "seats": 40,
-      "available": 20,
-      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmDKrUATbxl7w3Uw83auhi7eTbE09XDNSmeg&usqp=CAU", ""],
-      "dateScheduled": "10 August 2010",
-      "dueDate": "15 August 2010",
-      "more": "+250 788 788 788"
     }
   ]

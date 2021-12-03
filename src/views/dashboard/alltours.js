@@ -80,9 +80,9 @@ const columnTwo=[
 const AllTours=()=>{
     return(
         <>
-        <h2>AllTours</h2>
+        <h2 style={{textAlign:'center', fontSize:'40px'}}>AllTours</h2>
         <Table columns={column} dataSource={Alltourssvsilsble}/>
-        <h3>AllUsers</h3>
+        <h3 style={{textAlign:'center', fontSize:'40px'}}>AllUsers</h3>
         <Table columns={columnTwo} dataSource={UserContent}/>
        </>
 
