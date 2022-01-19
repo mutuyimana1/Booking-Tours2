@@ -1,7 +1,6 @@
 import React from "react";
 import HomeLayout from "../components/home-layout";
 import travel from "../assets/images/poolside.jpg"
-import pillars from "../assets/images/pillars.png"
 const Garelley=()=>{
     return(
         <HomeLayout>
@@ -43,11 +42,7 @@ const Garelley=()=>{
                         leverage and complement resources, skills, experiences, knowledge and
                          track records of partner organizations in a catalytic and value-adding manner.
                      The Foundation is guided by the following:</p>
-                     <h3>Our pillars</h3>
-                             <img src={pillars}></img>
-                             
-                             
-                             <label for="cars">all News and Announcements</label>
+                     
 
 <select name="cars" id="cars">
   <option value="volvo">all</option>
