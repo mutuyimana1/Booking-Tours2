@@ -11,7 +11,7 @@ const Garelley=()=>{
             <div className="content">
                 <div className="content1">
                     <p>We receive lots of enquiries from bloggers <br/>
-                        and vloggers 
+                        and 
                         - which is totally awesome!<br/>
                         Social media has transformed 
                         travel<br/> and you are all amazing!
